@@ -3,10 +3,7 @@
 
 var fahrenheit = 0; 
 function celsiusToFahrenheit (celsius){
- 
     fahrenheit = celsius * 9 / 5 + 32;
     return fahrenheit;
 }
-
-celsiusToFahrenheit(10);
-console.log(fahrenheit);
+console.log(celsiusToFahrenheit(10));

@@ -5,20 +5,14 @@ var prosek = 0;
 var brojac = 0;
 var i = 0;
 
-function prosekBrojeva(){
-
-    var a = 4
-    var b = 2
-    var c = 5 
+function prosekBrojeva(a, b, c){
 
     while(brojac <= 2){
         zbir = a + b + c;
         brojac++;
-        i++;    
-     
+        i++;     
     }   
     prosek = zbir / 3
     console.log(prosek);
 }
-
-prosekBrojeva(); 
+prosekBrojeva(4, 2, 5); 
