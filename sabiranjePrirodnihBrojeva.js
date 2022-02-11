@@ -5,7 +5,6 @@ var sum = 0;
 var brojac = 0;
 
 while (brojac <= 10) {
-
     sum += i;
     brojac++;
     i++;
